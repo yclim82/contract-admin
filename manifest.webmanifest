@@ -1,7 +1,7 @@
 {
-  "name": "Contract Admin Agent — Plot 323C",
+  "name": "Contract Admin Agent",
   "short_name": "Contract Admin",
-  "description": "Contract administration for the Plot 323C Piling & Main Building Works (YTC): ask the contract, deadlines, documents.",
+  "description": "Contract administration for ViTrox projects: ask the contract, deadlines, documents.",
   "id": "/contract-admin/",
   "start_url": "./",
   "scope": "./",

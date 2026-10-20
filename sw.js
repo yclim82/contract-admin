@@ -3,7 +3,7 @@
    always comes from Apps Script over the network. */
 
 // Bump when the shell or icons change so returning users get fresh artwork.
-const CACHE = 'contract-admin-shell-v1';
+const CACHE = 'contract-admin-shell-v2';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest',
   'icon-192.png', 'icon-512.png', 'icon-maskable-512.png',
