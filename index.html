@@ -64,7 +64,7 @@
       <span>Android — Chrome menu <b>⋮</b> → <b>Install app</b> / <b>Add to Home screen</b></span>
       <span>iPhone — Safari <b>Share</b> → <b>Add to Home Screen</b></span>
       <span>Laptop — Chrome/Edge: click the <b>install</b> icon at the right of the address bar</span>
-      <em>Opens with your ViTrox Google account (vitrox.com only).</em>
+      <em>Opens in Claude (claude.ai). Sign in with your ViTrox Claude account; the page owner must have shared it with you.</em>
     </div>
   </div>
 
@@ -77,13 +77,14 @@
 </div>
 
 <script>
-  // The deployed Apps Script web app. Redeploying the same deployment keeps this
-  // URL; only a brand-new deployment would change it.
-  var APP_URL = 'https://script.google.com/a/macros/vitrox.com/s/AKfycbxvonKIGaz-DRryDEJfbJX2tQeek0RAd_wM7-2m-XSj6wu7x7cnmSp3_tHxxqXXao3O/exec';
+  // The claude.ai Artifact version of Contract Admin (the user switched to it on 2026-11-12;
+  // the old Google Apps Script app is no longer linked from here). Republishing the same
+  // Artifact keeps this URL.
+  var APP_URL = 'https://claude.ai/artifact/L2VRCS9W2y5gN7DF6qTwR8';
 
   document.getElementById('openBtn').href = APP_URL;
 
-  // A top-level navigation, not an iframe: Google sign-in refuses to render
+  // A top-level navigation, not an iframe: claude.ai sign-in refuses to render
   // inside a frame.
   var went = false;
   function go() { if (went) return; went = true; location.replace(APP_URL); }
