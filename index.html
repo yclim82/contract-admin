@@ -64,7 +64,7 @@
       <span>Android — Chrome menu <b>⋮</b> → <b>Install app</b> / <b>Add to Home screen</b></span>
       <span>iPhone — Safari <b>Share</b> → <b>Add to Home Screen</b></span>
       <span>Laptop — Chrome/Edge: click the <b>install</b> icon at the right of the address bar</span>
-      <em>Opens in Claude (claude.ai). Sign in with your ViTrox Claude account; the page owner must have shared it with you.</em>
+      <em>Opens in Claude (claude.ai). Sign in with your Claude account the first time.</em>
     </div>
   </div>
 
@@ -79,8 +79,9 @@
 <script>
   // The claude.ai Artifact version of Contract Admin (the user switched to it on 2026-11-12;
   // the old Google Apps Script app is no longer linked from here). Republishing the same
-  // Artifact keeps this URL.
-  var APP_URL = 'https://claude.ai/artifact/L2VRCS9W2y5gN7DF6qTwR8';
+  // Artifact keeps this URL. The ?sk= share key (added 2026-11-13 at the owner's request) lets
+  // people outside the owner's account open it; anyone who reads this page can see the key.
+  var APP_URL = 'https://claude.ai/artifact/L2VRCS9W2y5gN7DF6qTwR8?sk=RZFaRWIRrNSxn-Xgd2DkgA';
 
   document.getElementById('openBtn').href = APP_URL;
 
